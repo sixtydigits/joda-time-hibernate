@@ -5,23 +5,31 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>joda-time</groupId>
+  <groupId>com.sixtydigits.joda-time</groupId>
   <artifactId>joda-time-hibernate</artifactId>
   <packaging>jar</packaging>
   <name>Joda-Time-Hibernate</name>
   <version>1.5-SNAPSHOT</version>
-  <description>Contribution to Joda-Time that adds Hibernate support</description>
-  <url>http://www.joda.org/joda-time-hibernate/</url>
+  <description>Contribution to Joda-Time that adds Hibernate support. Forked from https://github.com/vra5107/joda-time-hibernate.</description>
+  <url>https://github.com/sixtydigits/joda-time-hibernate</url>
 
   <!-- ==================================================================== -->
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/JodaOrg/joda-time-hibernate/issues</url>
+    <url>https://github.com/sixtydigits/joda-time-hibernate/issues</url>
   </issueManagement>
   <inceptionYear>2005</inceptionYear>
 
   <!-- ==================================================================== -->
   <developers>
+    <developer>
+      <id>danwashusen</id>
+      <name>Dan Washusen</name>
+      <email>dan@sixtydigits.com</email>
+      <roles>
+        <role>Maintainer</role>
+      </roles>
+    </developer>
     <developer>
       <id>imario</id>
       <name>Mario Ivankovits</name>
@@ -58,13 +66,12 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://github.com/JodaOrg/joda-time-hibernate.git</connection>
-    <developerConnection>scm:git:git@github.com:JodaOrg/joda-time-hibernate.git</developerConnection>
-    <url>https://github.com/JodaOrg/joda-time-hibernate</url>
+    <connection>scm:git:https://github.com/sixtydigits/joda-time-hibernate.git</connection>
+    <developerConnection>scm:git:git@github.com:sixtydigits/joda-time-hibernate.git</developerConnection>
+    <url>https://github.com/sixtydigits/joda-time-hibernate</url>
   </scm>
   <organization>
-    <name>Joda.org</name>
-    <url>http://www.joda.org</url>
+    <name>Sixty Digits Pty Ltd</name>
   </organization>
 
   <!-- ==================================================================== -->
@@ -435,24 +442,15 @@
 
   <!-- ==================================================================== -->
   <distributionManagement>
-<!--    <repository>
-      <id>sonatype-joda-staging</id>
-      <name>Sonatype OSS staging repository</name>
-      <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-      <layout>default</layout>
+    <repository>
+      <id>nexus.sixtydigits.com</id>
+      <name>Sixty Digits</name>
+      <url>http://nexus.sixtydigits.com/repository/maven-custom-releases/</url>
     </repository>
     <snapshotRepository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>sonatype-joda-snapshot</id>
-      <name>Sonatype OSS snapshot repository</name>
-      <url>http://oss.sonatype.org/content/repositories/joda-snapshots</url>
-      <layout>default</layout>
-    </snapshotRepository>-->
-      <snapshotRepository>
-          <id>crm-snapshots</id>          
-          <url>http://build.crmmsapps.cargill.com/nexus/content/repositories/crm-snapshots</url>          
-      </snapshotRepository>
-    <downloadUrl>http://oss.sonatype.org/content/repositories/joda-releases</downloadUrl>
+      <id>nexus.sixtydigits.com</id>
+      <url>http://nexus.sixtydigits.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <!-- ==================================================================== -->
