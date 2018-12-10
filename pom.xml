@@ -6,7 +6,7 @@
   <artifactId>joda-time-hibernate</artifactId>
   <packaging>jar</packaging>
   <name>Joda-Time-Hibernate</name>
-  <version>1.5</version>
+  <version>1.6-SNAPSHOT</version>
   <description>Contribution to Joda-Time that adds Hibernate support. Forked from https://github.com/vra5107/joda-time-hibernate.</description>
   <url>https://github.com/sixtydigits/joda-time-hibernate</url>
 
@@ -66,7 +66,7 @@
     <connection>scm:git:https://github.com/sixtydigits/joda-time-hibernate.git</connection>
     <developerConnection>scm:git:git@github.com:sixtydigits/joda-time-hibernate.git</developerConnection>
     <url>https://github.com/sixtydigits/joda-time-hibernate</url>
-    <tag>joda-time-hibernate-1.5</tag>
+    <tag>HEAD</tag>
   </scm>
   <organization>
     <name>Sixty Digits Pty Ltd</name>
