@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sixtydigits.joda-time</groupId>
   <artifactId>joda-time-hibernate</artifactId>
   <packaging>jar</packaging>
   <name>Joda-Time-Hibernate</name>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   <description>Contribution to Joda-Time that adds Hibernate support. Forked from https://github.com/vra5107/joda-time-hibernate.</description>
   <url>https://github.com/sixtydigits/joda-time-hibernate</url>
 
@@ -33,7 +30,7 @@
     <developer>
       <id>imario</id>
       <name>Mario Ivankovits</name>
-      <email></email>
+      <email />
       <roles>
         <role>Lead developer</role>
       </roles>
@@ -41,7 +38,7 @@
     <developer>
       <id>gjoseph</id>
       <name>Gregory Joseph</name>
-      <email></email>
+      <email />
       <roles>
         <role>Developer</role>
       </roles>
@@ -69,6 +66,7 @@
     <connection>scm:git:https://github.com/sixtydigits/joda-time-hibernate.git</connection>
     <developerConnection>scm:git:git@github.com:sixtydigits/joda-time-hibernate.git</developerConnection>
     <url>https://github.com/sixtydigits/joda-time-hibernate</url>
+    <tag>joda-time-hibernate-1.5</tag>
   </scm>
   <organization>
     <name>Sixty Digits Pty Ltd</name>
